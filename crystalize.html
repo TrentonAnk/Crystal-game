@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="crystal.css">
     <title>simple crystal game</title>
-
+    
     <style type="text/css">
 
         .crystal-image {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
+            text-align: center;
+            
         }
     </style>
 
 </head>
 <body>
-
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1>Crystals From The Deep</h1>
+                        <h2>Guess The Corect Amount to Win! :<span id="number-to-guess"></span></h2>
+        </div>
     <!-- Note that this div is now empty. We will fill it dynamically -->
     <div id="crystals">
     </div>
@@ -88,5 +93,10 @@
             }
         });
     </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>Good Luck!!</footer>
 </body>
 </html>
